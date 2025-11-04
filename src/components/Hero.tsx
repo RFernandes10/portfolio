@@ -1,5 +1,5 @@
 import React from "react";
-import { Code2, Github, Linkedin, Mail } from "./Icons";
+import { Github, Linkedin, Mail } from "./Icons";
 
 interface HeroProps {
   scrollToSection: (section: string) => void;
@@ -11,9 +11,11 @@ const Hero: React.FC<HeroProps> = ({ scrollToSection }) => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center">
           <div className="mb-6">
-            <div className="w-32 h-32 mx-auto bg-gradient-to-br from-cyan-400 to-blue-500 rounded-full flex items-center justify-center">
-              <Code2 size={64} className="text-white" />
-            </div>
+            <img
+              src="./minha-foto.jpg"
+              alt="Roberto Fernandes"
+              className="w-32 h-32 mx-auto rounded-full object-cover border-4 border-blue-500 shadow-lg"
+            />
           </div>
           <h2 className="text-5xl sm:text-6xl font-bold mb-4 bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent">
             Roberto Fernandes
