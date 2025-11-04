@@ -1,8 +1,8 @@
-# Portfolio de [Roberto Fernandes Fonseca]
+# Portfolio de Roberto Fernandes Fonseca
 
 Um portfólio de projetos para demonstrar minhas habilidades em desenvolvimento web.
 
-**[Veja ao vivo](https://seusite.com)**
+**[Veja ao vivo](https://rfernandes10.github.io/portfolio/)**
 
 ## 📜 Descrição
 
