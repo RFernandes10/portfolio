@@ -1,4 +1,4 @@
-# Portfolio de Roberto Fernandes Fonseca
+# Seja bem-vindo(a) ao meu portfólio, Roberto Fernandes Fonseca
 
 Um portfólio de projetos para demonstrar minhas habilidades em desenvolvimento web.
 
