@@ -29,27 +29,35 @@ export default function Portfolio() {
 
   const projects: Project[] = [
     {
-      title: "Sistema de Gerenciamento",
+      title: "Escola Gestão - IA",
       description:
-        "Aplicação full stack com autenticação, CRUD completo e dashboard interativo.",
-      tech: ["React", "TypeScript", "Node.js", "PostgreSQL", "Docker"],
-      github: "https://github.com/RFernandes10",
+        "Sistema completo de gestão escolar com IA (Google Gemini) para relatórios executivos e análise de RH.",
+      tech: ["Next.js 14", "TypeScript", "Node.js", "PostgreSQL", "Prisma", "Google Vertex AI"],
+      github: "https://github.com/RFernandes10/escola-gestao",
       demo: "#",
     },
     {
-      title: "E-commerce Platform",
+      title: "Project Management Platform",
       description:
-        "Plataforma de vendas online com carrinho de compras, integração de pagamento e painel admin.",
-      tech: ["React", "Redux", "Express", "MongoDB", "Stripe API"],
-      github: "https://github.com/RFernandes10",
+        "Plataforma full-stack de gerenciamento de projetos com metodologia Kanban e colaboração em tempo real.",
+      tech: ["React", "TypeScript", "Node.js", "PostgreSQL", "Context API"],
+      github: "https://github.com/RFernandes10/project-management-platform",
       demo: "#",
     },
     {
-      title: "Dashboard Analytics",
+      title: "Card Apresentação React",
       description:
-        "Dashboard responsivo com visualização de dados em tempo real e gráficos interativos.",
-      tech: ["React", "TypeScript", "Chart.js", "REST API"],
-      github: "https://github.com/RFernandes10",
+        "Cartão de perfil pessoal interativo e responsivo com animações suaves e design moderno.",
+      tech: ["React", "TypeScript", "Tailwind CSS", "CSS Animations"],
+      github: "https://github.com/RFernandes10/card-apresentacao-react",
+      demo: "https://rfernandes10.github.io/card-apresentacao-react/",
+    },
+    {
+      title: "GitHub Profile Explorer",
+      description:
+        "Visualizador moderno de perfis do GitHub com informações completas via GitHub API em tempo real.",
+      tech: ["React", "TypeScript", "GitHub API", "CSS Modules"],
+      github: "https://github.com/RFernandes10/GitHub_Profile_Explorer",
       demo: "#",
     },
   ];
