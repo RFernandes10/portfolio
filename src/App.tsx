@@ -40,24 +40,24 @@ export default function Portfolio() {
       title: "Project Management Platform",
       description:
         "Plataforma full-stack de gerenciamento de projetos com metodologia Kanban e colaboração em tempo real.",
-      tech: ["React", "TypeScript", "Node.js", "PostgreSQL", "Context API"],
+      tech: ["React", "TypeScript", "Node.js", "PostgreSQL", "Redux Toolkit"],
       github: "https://github.com/RFernandes10/project-management-platform",
       demo: "#",
-    },
-    {
-      title: "Card Apresentação React",
-      description:
-        "Cartão de perfil pessoal interativo e responsivo com animações suaves e design moderno.",
-      tech: ["React", "TypeScript", "Tailwind CSS", "CSS Animations"],
-      github: "https://github.com/RFernandes10/card-apresentacao-react",
-      demo: "https://rfernandes10.github.io/card-apresentacao-react/",
     },
     {
       title: "GitHub Profile Explorer",
       description:
         "Visualizador moderno de perfis do GitHub com informações completas via GitHub API em tempo real.",
-      tech: ["React", "TypeScript", "GitHub API", "CSS Modules"],
+      tech: ["HTML5", "CSS3", "JavaScript", "GitHub API"],
       github: "https://github.com/RFernandes10/GitHub_Profile_Explorer",
+      demo: "https://rfernandes10.github.io/GitHub_Profile_Explorer/",
+    },
+    {
+      title: "Autoparts System",
+      description:
+        "Sistema completo de gestão para lojas de autopeças com controle de estoque e vendas.",
+      tech: ["React", "TypeScript", "Node.js", "PostgreSQL", "Prisma"],
+      github: "https://github.com/RFernandes10/autoparts-system",
       demo: "#",
     },
   ];
